@@ -2,6 +2,8 @@ const app = require('express')();
 const expressGraphql = require('express-graphql');
 const { buildSchema } = require("graphql");
 
+const port = process.env.port || 3000;
+
 // schema (data structure and requests)
 const schema = buildSchema(`
     
@@ -63,4 +65,5 @@ app.use(
     })
 );
 
-app.listen(3000);
+app.listen(port, () => 
+    console.log(`Server running on port ${port}!`));
