@@ -3,4 +3,4 @@ Simple Server using GraphQL &amp; ExpressJS. Tutorial from Rockseat
 
 Tutorial: https://blog.rocketseat.com.br/iniciando-graphql-nodejs-expressjs/
 
-Run Server: node index.js
+`Run Server: node index.js`
