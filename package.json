@@ -4,7 +4,7 @@
   "description": "Simple Server using GraphQL & ExpressJS. Tutorial from Rockseat",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-graphql": "^0.8.0",
     "graphql": "^14.3.1"
   },
